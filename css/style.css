@@ -591,7 +591,6 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
     gap: 40px;
 }
 
@@ -641,6 +640,133 @@ nav ul li a {
     font-size: var(--font-size-sub-title);
     font-weight: 400;
 }
+
+
+/*Pilares*/
+
+.container_pilares {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 0px 40px 0px;
+    background: #1E549A;
+}
+
+.container_pilares_int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.area_pilares {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.area_logo_pilares {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+    position: sticky;
+    height: 100%;
+    top: 20px;
+}
+
+.cosimo_logo_branco {
+    max-width: max-content;
+    width: 100%;
+    height: auto;
+}
+
+.title_pilares h2 {
+    color: #FFF;
+    font-size: var(--font-size-title);
+    font-weight: 800;
+    line-height: 125%;
+}
+
+.info_pilares p {
+    color: #FFF;
+    font-size: var(--font-size-sub-title);
+    font-weight: 400;
+    line-height: normal;
+}
+
+.area_cards_pilares {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 670px;
+}
+
+.cards_pilares {
+    border-radius: 12px;
+    border: 2px solid rgba(209, 228, 235, 0.00);
+    background: #FFF;
+    box-shadow: 5px 8px 60px 0px rgba(23, 81, 89, 0.12);
+    padding: 20px 30px;
+}
+
+.cards_pilares_int {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.area_icon_pilares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 15px;
+    background: #E2EFFB;
+    transition: all ease-in-out 200ms;
+    transform: scale3d(1, 1, 1);
+    padding: 0px 10px;
+}
+
+.area_text_pilares {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: max-content;
+}
+
+.title_cards_pilares h2 {
+    color: #2E3135;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 100%;
+}
+
+
+.sub_title_cards_pilares p {
+    color: #2E3135;
+    font-size: var(--font-size-sub-title);
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
