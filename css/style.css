@@ -50,6 +50,7 @@ a {
 .logo_desktop {
     max-width: max-content;
     width: 100%;
+    height: auto;
 }
 
 [data-animation] {
@@ -324,6 +325,7 @@ nav ul li a {
     bottom: -20px;
     left: 60px;
     max-width: max-content;
+    height: auto;
     width: 100%;
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.90);
@@ -335,6 +337,7 @@ nav ul li a {
     top: 30px;
     left: -40px;
     max-width: max-content;
+    height: auto;
     width: 100%;
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.90);
@@ -347,6 +350,7 @@ nav ul li a {
     top: 80px;
     right: -70px;
     max-width: max-content;
+    height: auto;
     width: 100%;
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.90);
