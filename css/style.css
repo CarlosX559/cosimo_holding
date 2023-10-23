@@ -457,8 +457,19 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 40px;
     width: 100%;
     max-width: 1280px;
+}
+
+.title_gestao_total h2 {
+    color: #101824;
+    text-align: center;
+    font-size: var(--font-size-title);
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -1.6px;
 }
 
 .area_gestao {
@@ -1254,8 +1265,9 @@ nav ul li a {
         top: 100px;
     }
 
-    .area_gestao {
+    .container_gestao_int {
         padding: 0px 20px;
+        gap: 20px;
     }
 
     .card_gestao_int {
