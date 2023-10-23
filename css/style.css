@@ -554,6 +554,10 @@ nav ul li a {
     gap: 15px;
 }
 
+.area_logo_ecossistema a {
+    display: flex;
+}
+
 .title_ecossistema h2 {
     color: #101824;
     font-size: var(--font-size-title);
@@ -706,6 +710,10 @@ nav ul li a {
     position: sticky;
     height: 100%;
     top: 20px;
+}
+
+.area_logo_pilares a {
+    display: flex;
 }
 
 .cosimo_logo_branco {
