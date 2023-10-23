@@ -1188,13 +1188,7 @@ nav ul li a {
         padding: 0px;
     }
 
-
-
-
 }
-
-
-
 @media(max-width: 768px) {
     :root {
         --font-size-title: 28px;
