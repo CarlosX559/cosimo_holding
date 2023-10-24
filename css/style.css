@@ -980,7 +980,8 @@ nav ul li a {
     border-radius: 400px;
     background: #00AEC4;
     filter: blur(350px);
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 300px;
     left: 0px;
     bottom: 0px;
